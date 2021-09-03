@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FriendshipTest</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+<!-- //Entrer votre nom -->
+    <p>Bienvenue  sur ce site</p>
+    <p>Entre ton nom, vite ! </p>
+    <p><input type="text"/></p>
+    <p><input type="submit"/></p>
+
+<!-- //Petit message de début
+ -->    <p>Juste en bas, des questions pour toi !</p>
+<!-- //Questions Radio buttons/options 1,2,3 -->
+    <ol>
+      <p><li>Quel est mon âge ?</li></p>
+        </br><input type="radio" name="Fanta"/>18
+        </br><input type="radio" name="Fanta"/>19
+        </br><input type="radio" name="Fanta"/>20
+      <p><li>Quelle est ma boisson préférée</li></p>
+        </br><input type="radio" name="F"/>Fanta
+        </br><input type="radio" name="F"/>Sprite
+        </br><input type="radio" name="F"/>L'eau
+      <p><li>Quel est mon repas préféré ?</li></p>
+        </br><input type="radio" name="Fi"/>Spaghetti
+        </br><input type="radio" name="Fi"/>Frites
+        </br><input type="radio" name="Fi"/>Couscous
+      <p><li>Quel est mon passe-temps favoris ?</li></p>
+        </br><input type="radio" name="Fan"/>Dormir
+        </br><input type="radio" name="Fan"/>Netflix & Chill
+        </br><input type="radio" name="Fan"/>Chanter
+      <p><li>Ma série préférée ?</li></p>
+        </br><input type="radio" name="fant"/>Casa De Papel
+        </br><input type="radio" name="fant"/>Iron Fist
+        </br><input type="radio" name="fant"/>StrangerThings
+    </ol>
+
+      <p>Clique sur "Terminé" pour confirmer tes réponses</p>
+        <form method="get" action="https://hackertyper.net/">
+          <button type="submit">Terminé</button>
+        </form>
+</body>
+</html>
